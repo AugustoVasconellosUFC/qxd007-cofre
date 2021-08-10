@@ -8,6 +8,14 @@ public class Item {
         this.descricao = descricao;
     }
 
+    public int getVolume() {
+        return volume;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
